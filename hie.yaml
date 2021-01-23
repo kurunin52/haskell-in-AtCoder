@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "haskell-in-AtCoder:lib"
+
+    - path: "./app/Main.hs"
+      component: "haskell-in-AtCoder:exe:haskell-in-AtCoder-exe"
+
+    - path: "./app/Paths_haskell_in_AtCoder.hs"
+      component: "haskell-in-AtCoder:exe:haskell-in-AtCoder-exe"
+
+    - path: "./test"
+      component: "haskell-in-AtCoder:test:haskell-in-AtCoder-test"
