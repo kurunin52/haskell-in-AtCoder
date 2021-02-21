@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 32be29db43e05214cb8899f9b664fb672057652ea08f26e204783b6164298c49
+-- hash: 0f26f519dae0d08e730d75389342fc68c40fb9aeba4551b3aedf97e9d4814af6
 
 name:           haskell-in-AtCoder
 version:        0.1.0.0
@@ -30,6 +30,8 @@ library
       AtCoder.Acing2020
       AtCoder.Beginner172
       AtCoder.Beginner173
+      AtCoder.Beginner191
+      AtCoder.Regular113
       Lib
   other-modules:
       Paths_haskell_in_AtCoder
